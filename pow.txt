@@ -1,0 +1,9 @@
+main{
+	scan(i,n);
+	result=1;
+	while(n>0){
+		result=result*i;
+		n=n-1;
+	};
+	print(result);
+}

@@ -1,0 +1,13 @@
+main {
+    scan(n);
+    a = 0;
+    b = 1;
+    count = 0;
+    while (count < n) {
+        print(a);
+        next = a + b;
+        a = b;
+        b = next;
+        count = count + 1;
+    };
+}
